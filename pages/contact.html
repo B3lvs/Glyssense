@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com GlySense - Suporte ao cliente, dúvidas e propostas">
+  <meta name="keywords" content="contato, suporte, email, telefone">
+  <title>Contato | GlySense</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">Gly<span>Sense</span></div>
+      
+      <ul class="nav-links">
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="../index.html#faq">FAQ</a></li>
+        <li><a href="support.html">Suporte</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" style="padding: 80px 5% 60px;">
+    <div class="hero-content">
+      <h1>Fale Conosco</h1>
+      <p>Estamos aqui para responder suas dúvidas, receber sugestões e ajudar você a aproveitar o máximo do GlySense</p>
+    </div>
+  </section>
+
+  <!-- Informações de Contato -->
+  <section>
+    <div class="section-title">
+      <h2>Entre em Contato</h2>
+      <p>Múltiplas formas de nos alcançar</p>
+    </div>
+
+    <div class="grid" style="max-width: 1000px; margin: 2rem auto;">
+      <div class="card">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">📧</div>
+        <h3>Email</h3>
+        <p><a href="mailto:info@glysense.com" style="font-weight: bold; color: var(--primary-blue);">info@glysense.com</a></p>
+        <p style="font-size: 0.9rem; color: var(--text-light);">Resposta em até 24 horas</p>
+      </div>
+
+      <div class="card">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">📞</div>
+        <h3>Telefone</h3>
+        <p><a href="tel:+551140000000" style="font-weight: bold; color: var(--primary-blue);">(11) 4000-0000</a></p>
+        <p style="font-size: 0.9rem; color: var(--text-light);">Seg-Sex: 8h - 18h (Brasília)</p>
+      </div>
+
+      <div class="card">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">💬</div>
+        <h3>Chat ao Vivo</h3>
+        <p><a href="#" style="font-weight: bold; color: var(--primary-blue);">Iniciar Chat</a></p>
+        <p style="font-size: 0.9rem; color: var(--text-light);">Disponível 24/7 via app</p>
+      </div>
+
+      <div class="card">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">📍</div>
+        <h3>Endereço</h3>
+        <p style="font-weight: bold;">São Paulo, SP - Brasil</p>
+        <p style="font-size: 0.9rem; color: var(--text-light);">Agende visita pelo email</p>
+      </div>
+
+      <div class="card">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">🐦</div>
+        <h3>Redes Sociais</h3>
+        <p><a href="#" style="font-weight: bold; color: var(--primary-blue);">@GlySenseBR</a></p>
+        <p style="font-size: 0.9rem; color: var(--text-light);">Instagram, Twitter, LinkedIn</p>
+      </div>
+
+      <div class="card">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">🆘</div>
+        <h3>Emergência</h3>
+        <p style="font-weight: bold;">Ligar 192 ou 911</p>
+        <p style="font-size: 0.9rem; color: var(--text-light);">Para situações urgentes de saúde</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulário -->
+  <section style="background: var(--bg-light);">
+    <div class="section-title">
+      <h2>Envie uma Mensagem</h2>
+      <p>Preencha o formulário abaixo e entraremos em contato em breve</p>
+    </div>
+
+    <form id="contactForm" style="max-width: 600px; margin: 0 auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: var(--shadow-md);">
+      <div class="form-group">
+        <label for="name">Nome Completo *</label>
+        <input type="text" id="name" name="name" required placeholder="Seu nome">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com">
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Assunto *</label>
+        <select id="subject" name="subject" required>
+          <option value="">Selecione um assunto</option>
+          <option value="compra">Informações sobre Compra</option>
+          <option value="tecnico">Suporte Técnico</option>
+          <option value="medico">Informação Médica</option>
+          <option value="feedback">Feedback/Sugestão</option>
+          <option value="parceria">Parceria/Negócio</option>
+          <option value="outro">Outro</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Mensagem *</label>
+        <textarea id="message" name="message" required placeholder="Descreva sua mensagem em detalhes..."></textarea>
+      </div>
+
+      <div class="form-group" style="display: flex; align-items: center; gap: 0.5rem;">
+        <input type="checkbox" id="privacy" name="privacy" required style="width: auto; margin: 0;">
+        <label for="privacy" style="margin: 0;">Concordo com a <a href="../pages/privacy.html">Política de Privacidade</a></label>
+      </div>
+
+      <button type="submit" class="btn-primary" style="width: 100%; cursor: pointer;">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <!-- FAQ de Contato -->
+  <section>
+    <div class="section-title">
+      <h2>Perguntas sobre Contato</h2>
+      <p>Respostas rápidas</p>
+    </div>
+
+    <div style="max-width: 800px; margin: 0 auto;">
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Qual é o melhor horário para ligar?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p>Nosso time está disponível de segunda a sexta, das 8h às 18h (horário de Brasília). Você também pode enviar email a qualquer hora e responderemos dentro de 24 horas.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Como marcar uma demo do produto?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p>Você pode solicitar uma demo no formulário acima selecionando o assunto "Informações sobre Compra". Ou envie email diretamente para info@glysense.com com o assunto "Solicitação de Demo".</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Onde posso comprar o GlySense?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p>Você pode comprar pelo nosso site, através de farmácias parceiras ou entrando em contato conosco. Oferecemos diferentes opções de pagamento e parcelamento.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Vocês entregam em minha região?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p>GlySense está disponível em 45 países. Se você está no Brasil, fazemos entrega em todo o território. Para outros países, verifique no formulário acima ou nos contate.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Existe suporte em meu idioma?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p>Sim! Oferecemos suporte em Português, Espanhol, Inglês e Francês. Selecione seu idioma preferido ao fazer contato.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mapa de Horários -->
+  <section style="background: var(--bg-light);">
+    <div class="section-title">
+      <h2>Horário de Atendimento</h2>
+      <p>Disponibilidade global</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>🇧🇷 Brasil (São Paulo)</h3>
+        <p><strong>Seg-Sex:</strong> 8h - 18h<br>
+           <strong>Sábado:</strong> 9h - 13h<br>
+           <strong>Domingo:</strong> Fechado<br>
+           <strong>Fuso:</strong> GMT-3</p>
+      </div>
+
+      <div class="card">
+        <h3>🇪🇸 Europa (Espanha)</h3>
+        <p><strong>Seg-Sex:</strong> 8h - 18h<br>
+           <strong>Sábado:</strong> 9h - 13h<br>
+           <strong>Domingo:</strong> Fechado<br>
+           <strong>Fuso:</strong> GMT+1</p>
+      </div>
+
+      <div class="card">
+        <h3>🇺🇸 EUA (New York)</h3>
+        <p><strong>Seg-Sex:</strong> 8h - 18h<br>
+           <strong>Sábado:</strong> 9h - 13h<br>
+           <strong>Domingo:</strong> Fechado<br>
+           <strong>Fuso:</strong> GMT-5</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="text-align: center;">
+    <h2>Pronto para Começar?</h2>
+    <p>Nosso time está ansioso para ajudá-lo</p>
+    <button class="btn-primary" onclick="window.location.href='../index.html'">Voltar para Início</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>GlySense</h4>
+        <p>Tecnologia inovadora para monitoramento contínuo de glicose.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Links Rápidos</h4>
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="support.html">Suporte</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Contato</h4>
+        <ul>
+          <li>📧 <a href="mailto:info@glysense.com">info@glysense.com</a></li>
+          <li>📞 <a href="tel:+551140000000">(11) 4000-0000</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 GlySense™. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
