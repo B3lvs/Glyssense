@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Suporte GlySense - Solução de problemas, guias e contato com time de suporte">
+  <meta name="keywords" content="suporte, ajuda, problemas, guias, troubleshooting">
+  <title>Suporte | GlySense</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">Gly<span>Sense</span></div>
+      
+      <ul class="nav-links">
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="contact.html">Contato</a></li>
+        <li><a href="../index.html#faq">FAQ</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" style="padding: 80px 5% 60px;">
+    <div class="hero-content">
+      <h1>Centro de Suporte</h1>
+      <p>Encontre respostas rápidas, guias passo a passo e acesso direto ao nosso time de especialistas</p>
+    </div>
+  </section>
+
+  <!-- Busca de Ajuda -->
+  <section style="background: var(--primary-light);">
+    <div class="section-title">
+      <h2>Como Podemos Ajudar?</h2>
+      <p>Escolha seu tipo de problema</p>
+    </div>
+
+    <div class="grid">
+      <div class="card" style="cursor: pointer; transition: var(--transition);" onclick="scrollToSection('setup')">
+        <h3 style="color: var(--primary-blue);">⚙️ Configuração</h3>
+        <p>Guias de instalação do sensor e configuração do aplicativo</p>
+      </div>
+
+      <div class="card" style="cursor: pointer; transition: var(--transition);" onclick="scrollToSection('app')">
+        <h3 style="color: var(--primary-blue);">📱 Aplicativo</h3>
+        <p>Problemas com o app, sincronização e notificações</p>
+      </div>
+
+      <div class="card" style="cursor: pointer; transition: var(--transition);" onclick="scrollToSection('sensor')">
+        <h3 style="color: var(--primary-blue);">📡 Sensor</h3>
+        <p>Leituras incomuns, durabilidade e reposição</p>
+      </div>
+
+      <div class="card" style="cursor: pointer; transition: var(--transition);" onclick="scrollToSection('account')">
+        <h3 style="color: var(--primary-blue);">👤 Conta</h3>
+        <p>Login, senha, privacidade e dados pessoais</p>
+      </div>
+
+      <div class="card" style="cursor: pointer; transition: var(--transition);" onclick="scrollToSection('billing')">
+        <h3 style="color: var(--primary-blue);">💳 Pagamento</h3>
+        <p>Compras, reembolsos e planos de assinatura</p>
+      </div>
+
+      <div class="card" style="cursor: pointer; transition: var(--transition);" onclick="scrollToSection('medical')">
+        <h3 style="color: var(--primary-blue);">⚕️ Médico</h3>
+        <p>Informações clínicas e compatibilidade com tratamentos</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Configuração -->
+  <section id="setup">
+    <div class="section-title">
+      <h2>🔧 Configuração do GlySense</h2>
+      <p>Primeiros passos para começar</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Passo 1: Baixar o App</h3>
+        <p><strong>iOS:</strong> Visite App Store e procure por "GlySense"<br>
+           <strong>Android:</strong> Visite Google Play e procure por "GlySense"<br>
+           <strong>Mínimo:</strong> iOS 12+ ou Android 8+</p>
+      </div>
+
+      <div class="card">
+        <h3>Passo 2: Criar Conta</h3>
+        <p>Abra o app, toque em "Criar Conta", insira email e crie uma senha segura. Confirme seu email clicando no link enviado.</p>
+      </div>
+
+      <div class="card">
+        <h3>Passo 3: Preparar Sensor</h3>
+        <p>Limpe a área atrás do braço com álcool. Deixe secar por 30 segundos. Retire o sensor da embalagem estéril.</p>
+      </div>
+
+      <div class="card">
+        <h3>Passo 4: Aplicar Sensor</h3>
+        <p>Pressione o sensor na parte traseira do braço. Mantenha pressão por 30 segundos. A tira adesiva deve estar bem aderida.</p>
+      </div>
+
+      <div class="card">
+        <h3>Passo 5: Sincronizar</h3>
+        <p>No app, toque em "Novo Sensor". Aproxime o smartphone do sensor. Aguarde a conexão Bluetooth (20-30 segundos).</p>
+      </div>
+
+      <div class="card">
+        <h3>Passo 6: Primeira Leitura</h3>
+        <p>Primeira leitura disponível em 30 minutos. Entretanto, calibre com glicômetro tradicional se desejar nos primeiros 2 dias.</p>
+      </div>
+    </div>
+
+    <div style="background: var(--primary-light); padding: 1.5rem; border-radius: 8px; margin-top: 2rem;">
+      <h4 style="color: var(--primary-blue); margin-top: 0;">⚠️ Dicas Importantes</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li>✓ Sempre use um sensor novo a cada 14 dias</li>
+        <li>✓ Não reutilize sensores antigos</li>
+        <li>✓ Limpe a área antes de aplicar</li>
+        <li>✓ Evite aplicar no mesmo local frequentemente</li>
+        <li>✓ Tenha seu smartphone por perto durante sincronização</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Seção App -->
+  <section id="app" style="background: var(--bg-light);">
+    <div class="section-title">
+      <h2>📱 Problemas com o Aplicativo</h2>
+      <p>Soluções rápidas para problemas comuns</p>
+    </div>
+
+    <div style="max-width: 900px; margin: 0 auto;">
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>O app não conecta no sensor</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Solução:</strong><br>
+          1. Certifique-se que Bluetooth está ativado<br>
+          2. Feche completamente o app e abra novamente<br>
+          3. Reinicie seu smartphone<br>
+          4. Aproxime o smartphone do sensor (até 10cm)<br>
+          5. Se persistir, desinstale e reinstale o app</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Não recebo notificações de alerta</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Solução:</strong><br>
+          1. Verifique se as notificações estão ativadas nas configurações do app<br>
+          2. Vá em Configurações > Alertas e confirme que está ligado<br>
+          3. No seu smartphone, permita notificações para GlySense em Configurações<br>
+          4. Se estiver em modo silencioso, altere a configuração</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Meus dados não sincronizam com a nuvem</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Solução:</strong><br>
+          1. Verifique sua conexão WiFi ou dados móveis<br>
+          2. Tente se reconectar ao WiFi<br>
+          3. Abra Configurações > Sincronização > Sincronizar Agora<br>
+          4. Se o problema persistir, limpe o cache do app</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>O app está lento ou travando</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Solução:</strong><br>
+          1. Feche outros apps em execução<br>
+          2. Libere espaço na memória do seu smartphone<br>
+          3. Atualize para a versão mais recente do app<br>
+          4. Limpe o cache: Configurações > Armazenamento > Limpar Cache<br>
+          5. Se necessário, faça backup e desinstale/reinstale</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Esqueci minha senha</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Solução:</strong><br>
+          1. Na tela de login, toque em "Esqueci a Senha"<br>
+          2. Insira seu email registrado<br>
+          3. Você receberá um email com link para redefinir<br>
+          4. Clique no link e crie uma nova senha<br>
+          5. Faça login com a nova senha</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Sensor -->
+  <section id="sensor">
+    <div class="section-title">
+      <h2>📡 Problemas com o Sensor</h2>
+      <p>Soluções para questões técnicas</p>
+    </div>
+
+    <div style="max-width: 900px; margin: 0 auto;">
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Leituras muito altas ou muito baixas</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Solução:</strong><br>
+          1. Se o sensor tem menos de 48 horas, calibre com glicômetro tradicional<br>
+          2. Compare duas leituras consecutivas (diferença normal: ±15%)<br>
+          3. Certifique-se que o sensor está bem aderido<br>
+          4. Trocador o sensor se tiver mais de 14 dias<br>
+          5. Contate suporte se a variação for anormal</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Sensor não colando bem na pele</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Solução:</strong><br>
+          1. Limpe bem a área com álcool e deixe secar<br>
+          2. Evite aplicar em áreas muito suadas<br>
+          3. Use a fita reforçadora incluída na embalagem<br>
+          4. Aplique sempre na mesma área ou áreas próximas<br>
+          5. Se não funcionar, solicite reposição de sensor</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Irritação ou coceira no local</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Solução:</strong><br>
+          1. Isso é raro, mas use diferentes locais a cada sensor<br>
+          2. Se a irritação é alérgica, trocador para outro local<br>
+          3. Aplique um creme antialérgico leve ANTES de aplicar novo sensor<br>
+          4. Procure dermatologista se a irritação for grave<br>
+          5. Nós cobrimos sensores afetados por reações alérgicas</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Sensor caiu durante uso</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Solução:</strong><br>
+          1. Muito raro! Pode descer por suor excessivo ou adesivo defeituoso<br>
+          2. Se tiver caído, descarte com segurança<br>
+          3. Solicite um novo sensor de reposição gratuitamente<br>
+          4. Use a fita reforçadora no próximo sensor<br>
+          5. Contate suporte para reembolso se necessário</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Bateria do sensor está fraca</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Solução:</strong><br>
+          1. O sensor funciona até 14 dias com bateria completa<br>
+          2. Se falhar antes, pode ser defeituoso<br>
+          3. Você receberá aviso no app com 24h de antecedência<br>
+          4. Tenha novo sensor pronto antes da falha<br>
+          5. Contate suporte para sensor de reposição se falhar cedo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Account -->
+  <section id="account" style="background: var(--bg-light);">
+    <div class="section-title">
+      <h2>👤 Gerenciamento de Conta</h2>
+      <p>Perguntas sobre sua conta GlySense</p>
+    </div>
+
+    <div style="max-width: 900px; margin: 0 auto;">
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Como compartilho dados com meu médico?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Como fazer:</strong><br>
+          1. No app, vá em Configurações > Compartilhamento<br>
+          2. Toque em "Convidar Médico" e insira o email dele<br>
+          3. Seu médico receberá um convite por email<br>
+          4. Após aceitar, ele terá acesso aos seus dados em tempo real<br>
+          5. Você pode revogar acesso a qualquer momento</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Posso mudar meu email?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Como fazer:</strong><br>
+          1. Abra o app e vá em Configurações > Conta<br>
+          2. Toque em "Alterar Email"<br>
+          3. Insira seu novo email<br>
+          4. Confirme clicando no link enviado para o novo email<br>
+          5. Pronto! Seu novo email será o principal</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Como faço para exportar meus dados?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Como fazer:</strong><br>
+          1. Vá em Configurações > Privacidade > Exportar Dados<br>
+          2. Selecione o período que deseja (últimos 30, 90, 365 dias ou tudo)<br>
+          3. Escolha formato: PDF ou CSV<br>
+          4. Você receberá um arquivo por email<br>
+          5. Salve em lugar seguro ou compartilhe com seu médico</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Como deleto minha conta?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Como fazer:</strong><br>
+          1. Antes de deletar, exporte seus dados (ver acima)<br>
+          2. Vá em Configurações > Conta > Deletar Conta<br>
+          3. Confirme que deseja deletar (processo é irreversível)<br>
+          4. Todos os seus dados serão apagados permanentemente<br>
+          5. Se tinha assinatura, será cancelada automaticamente</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Meus dados são realmente privados?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Sim! Aqui está nossa política:</strong><br>
+          - Criptografia AES-256 de ponta a ponta<br>
+          - Nunca vendemos dados a terceiros<br>
+          - 100% conformes com LGPD e HIPAA<br>
+          - Você controla quem acessa seus dados<br>
+          - Pode deletar dados a qualquer momento<br>
+          - <a href="../pages/privacy.html">Leia nossa política completa</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Pagamento -->
+  <section id="billing">
+    <div class="section-title">
+      <h2>💳 Pagamento e Faturamento</h2>
+      <p>Informações sobre compras e assinaturas</p>
+    </div>
+
+    <div style="max-width: 900px; margin: 0 auto;">
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Quais são as opções de pagamento?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Aceitamos:</strong><br>
+          - Cartão de crédito (Visa, Mastercard, Elo, AMEX)<br>
+          - PIX (Pagamento Instantâneo - no Brasil)<br>
+          - Boleto bancário<br>
+          - Parcelamento em até 12x sem juros<br>
+          - PayPal (em países internacionais)</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Qual é o custo do GlySense?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Preços:</strong><br>
+          - Kit Inicial (receptor + 2 sensores): R$ 899<br>
+          - Sensor de reposição (unitário): R$ 350<br>
+          - Plano Premium (4 sensores/mês): R$ 1.200/mês<br>
+          - Plano Plus (2 sensores/mês): R$ 700/mês<br>
+          - Suporte Premium: R$ 199/mês<br>
+          <br>Oferecemos 7 dias de garantia satisfação ou devolução!</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Como faço para solicitar reembolso?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Processo:</strong><br>
+          1. Você tem 30 dias para solicitar reembolso sem questões<br>
+          2. Envie email para: refunds@glysense.com<br>
+          3. Inclua: número do pedido, motivo, fotos se necessário<br>
+          4. Nosso time responderá em 24 horas<br>
+          5. Reembolso processado em até 5 dias úteis</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Como cancelar minha assinatura?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Como fazer:</strong><br>
+          1. Abra o app > Configurações > Assinatura<br>
+          2. Toque em "Cancelar Assinatura"<br>
+          3. Você continuará com acesso até fim do período pago<br>
+          4. Nenhuma cobrança adicional após cancelamento<br>
+          5. Você pode reativar a qualquer momento</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Vocês oferecem nota fiscal?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Sim!</strong><br>
+          - Nota Fiscal Eletrônica emitida automaticamente<br>
+          - Enviada por email em até 24 horas da compra<br>
+          - Você pode baixar do seu perfil a qualquer momento<br>
+          - Dados para emissão: CPF ou CNPJ completos<br>
+          - Adicione dados tributários nas Configurações</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Medical -->
+  <section id="medical" style="background: var(--bg-light);">
+    <div class="section-title">
+      <h2>⚕️ Informações Clínicas</h2>
+      <p>Respostas sobre aspectos médicos</p>
+    </div>
+
+    <div style="max-width: 900px; margin: 0 auto;">
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>GlySense funciona para Diabetes Tipo 1 e Tipo 2?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Sim para ambos!</strong><br>
+          - Tipo 1: Monitoramento essencial para controle de insulina<br>
+          - Tipo 2: Ajuda a identificar alimentos e padrões<br>
+          - Também funciona para pré-diabetes<br>
+          - Consulte seu médico para recomendações específicas</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Preciso de prescrição médica?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Recomendações:</strong><br>
+          - Para uso clínico: prescrição médica recomendada<br>
+          - Para monitoramento pessoal: não é obrigatório<br>
+          - Alguns planos de saúde cobrem com prescrição<br>
+          - Consulte seu médico antes de usar<br>
+          - Nós fornecemos atestados para seguros</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>Quanto de precisão o GlySense oferece?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Especificações:</strong><br>
+          - Precisão: ±15% ou ±10mg/dL (o que for maior)<br>
+          - Conforme ISO 15197:2013 (padrão clínico)<br>
+          - Testado com 10 mil pacientes<br>
+          - Resultados comparáveis aos melhores CGMs do mercado<br>
+          - Dados variação: veja documentação completa</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>GlySense interfere com outros dispositivos?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Compatibilidade:</strong><br>
+          - Compatível com marcapassos (testado clinicamente)<br>
+          - Sem interferência com bombas de insulina<br>
+          - Usa Bluetooth 5.2 padrão (sem problemas)<br>
+          - Funciona com smartwatches e wearables<br>
+          - Se tiver dúvidas, consulte seu cardiologista</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-header">
+          <h3>É seguro para grávidas?</h3>
+          <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-content">
+          <p><strong>Importante:</strong><br>
+          - GlySense é seguro para diabetes gestacional<br>
+          - Monitoramento é especialmente importante na gravidez<br>
+          - Consulte seu obstetra antes de usar<br>
+          - Nós recomendamos mais frequentes durante gravidez<br>
+          - Dados podem ser compartilhados com seu médico</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato de Suporte -->
+  <section>
+    <div class="section-title">
+      <h2>Ainda Precisa de Ajuda?</h2>
+      <p>Nosso time está pronto para ajudar</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>📧 Email Support</h3>
+        <p><a href="mailto:support@glysense.com" class="btn-cta" style="display: inline-block;">support@glysense.com</a></p>
+        <p>Resposta em até 24 horas</p>
+      </div>
+
+      <div class="card">
+        <h3>💬 Chat ao Vivo</h3>
+        <p><a href="#" class="btn-cta" style="display: inline-block;">Iniciar Chat</a></p>
+        <p>Disponível 24/7 no app</p>
+      </div>
+
+      <div class="card">
+        <h3>📞 Telefone</h3>
+        <p><a href="tel:+551140000000" class="btn-cta" style="display: inline-block;">(11) 4000-0000</a></p>
+        <p>Seg-Sex 8h - 18h</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="text-align: center; background: var(--primary-light);">
+    <h2>Voltar para Início</h2>
+    <p>Explore mais sobre GlySense</p>
+    <button class="btn-primary" onclick="window.location.href='../index.html'">Home</button>
+    <button class="btn-secondary" onclick="window.location.href='contact.html'">Contato</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>GlySense</h4>
+        <p>Tecnologia inovadora para monitoramento contínuo de glicose.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Links Rápidos</h4>
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Suporte</h4>
+        <ul>
+          <li><a href="#setup">Configuração</a></li>
+          <li><a href="#app">App</a></li>
+          <li><a href="#sensor">Sensor</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 GlySense™. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({behavior: 'smooth'});
+    }
+  </script>
+</body>
+</html>
